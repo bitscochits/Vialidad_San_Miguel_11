@@ -1,0 +1,15 @@
+﻿tipo_centro,destino,lat_centro,lon_centro,peso_total_m2,n_registros
+Centroide simple,Todos,-33.496865280532816,-70.65298277409738,,42266
+Centro de masa,Todos,-33.49739171614617,-70.65180693211325,2258585.0,42217
+Centro de masa por destino,Administración pública,-33.495071338449435,-70.65094004486423,2541.0,3
+Centro de masa por destino,Bodega / Almacenaje,-33.49649058295971,-70.65004633519393,66466.0,8541
+Centro de masa por destino,Comercio,-33.499643632242474,-70.64991050896374,133259.0,504
+Centro de masa por destino,Deporte y recreación,-33.49209644936585,-70.65782656897561,5125.0,6
+Centro de masa por destino,Educación y cultura,-33.499718517986516,-70.65335498440052,47758.0,50
+Centro de masa por destino,Estacionamiento,-33.49535483735956,-70.65329955572378,133417.0,9583
+Centro de masa por destino,Habitacional,-33.49813865499257,-70.65272730242711,1517063.0,22890
+Centro de masa por destino,Industria,-33.49638899609916,-70.64695518091922,197906.0,200
+Centro de masa por destino,Oficina,-33.49258871486387,-70.64994622942059,62514.0,319
+Centro de masa por destino,Otro / sin clasificar,-33.49815641475653,-70.6519161050291,26307.0,79
+Centro de masa por destino,Salud,-33.487304653828474,-70.6480230010342,52214.0,37
+Centro de masa por destino,Transporte y telecom.,-33.48494694998216,-70.64773752215484,14015.0,5

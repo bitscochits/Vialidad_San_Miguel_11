@@ -1,0 +1,6 @@
+﻿segmento,seguridad_peatonal,accesibilidad,movilidad_activa,transporte_publico,conectividad_vial,ICV_criticidad
+Intersección curva,0.9,0.8,0.8,0.7,0.8,0.8150000000000001
+Tramo previo,0.7,0.6,0.7,0.5,0.6,0.6349999999999999
+Inicio de curvatura,0.7,0.6,0.7,0.5,0.6,0.6349999999999999
+Salida intersección,0.7,0.6,0.6,0.5,0.6,0.6149999999999999
+Tramo corto crítico,0.6,0.5,0.6,0.4,0.5,0.535
