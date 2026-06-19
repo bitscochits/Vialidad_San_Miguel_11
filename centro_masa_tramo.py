@@ -155,13 +155,36 @@ def haversine_m(lat1, lon1, lat2, lon2):
 
 def distancia_a_tramo_m(lat, lon, tramo_coords):
     """
-    Versión simple: distancia al punto más cercano del eje definido.
-    Para informe y buffer exploratorio funciona bien.
+    Distancia aproximada en metros desde un punto al segmento del tramo.
+    Convierte lat/lon a coordenadas métricas locales.
     """
-    return min(
-        haversine_m(lat, lon, punto_lat, punto_lon)
-        for punto_lat, punto_lon in tramo_coords
-    )
+    lat1, lon1 = tramo_coords[0]
+    lat2, lon2 = tramo_coords[1]
+
+    lat0 = math.radians((lat1 + lat2) / 2)
+
+    def to_xy(latp, lonp):
+        x = math.radians(lonp) * 6371000 * math.cos(lat0)
+        y = math.radians(latp) * 6371000
+        return x, y
+
+    px, py = to_xy(lat, lon)
+    x1, y1 = to_xy(lat1, lon1)
+    x2, y2 = to_xy(lat2, lon2)
+
+    dx = x2 - x1
+    dy = y2 - y1
+
+    if dx == 0 and dy == 0:
+        return haversine_m(lat, lon, lat1, lon1)
+
+    t = ((px - x1) * dx + (py - y1) * dy) / (dx * dx + dy * dy)
+    t = max(0, min(1, t))
+
+    closest_x = x1 + t * dx
+    closest_y = y1 + t * dy
+
+    return math.sqrt((px - closest_x) ** 2 + (py - closest_y) ** 2)
 
 
 def filtrar_buffer_tramo(df):

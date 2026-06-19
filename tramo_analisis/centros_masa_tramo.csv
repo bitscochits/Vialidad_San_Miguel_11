@@ -1,12 +1,12 @@
 ﻿tipo_centro,destino,lat_centro,lon_centro,peso_total_m2,n_registros
-Centroide simple tramo,Todos,-33.47923202253417,-70.64987227225711,,2707
-Centro de masa tramo,Todos,-33.47927129130484,-70.6499813142397,115501.0,2704
-Centro de masa por destino tramo,Bodega / Almacenaje,-33.479236647446456,-70.64993612891269,4856.0,643
+Centroide simple tramo,Todos,-33.4792893543672,-70.64994734367201,,2805
+Centro de masa tramo,Todos,-33.479323088755955,-70.6500472753747,119361.0,2802
+Centro de masa por destino tramo,Bodega / Almacenaje,-33.479262516011346,-70.64996908796108,4934.0,662
 Centro de masa por destino tramo,Comercio,-33.47915156745571,-70.64969331288121,13772.0,130
 Centro de masa por destino tramo,Deporte y recreación,-33.479746,-70.651018,307.0,1
 Centro de masa por destino tramo,Educación y cultura,-33.480429,-70.647837,1143.0,1
-Centro de masa por destino tramo,Estacionamiento,-33.47913879716355,-70.65031380593817,9801.0,678
-Centro de masa por destino tramo,Habitacional,-33.479358172067606,-70.64994011261518,75203.0,1230
+Centro de masa por destino tramo,Estacionamiento,-33.479249607258836,-70.65042289025789,10470.0,718
+Centro de masa por destino tramo,Habitacional,-33.47941838529802,-70.65002282626794,78316.0,1269
 Centro de masa por destino tramo,Industria,-33.47899780305287,-70.65077898374288,8058.0,15
 Centro de masa por destino tramo,Oficina,-33.47841506854257,-70.64929669696969,1386.0,3
 Centro de masa por destino tramo,Otro / sin clasificar,-33.47773636307692,-70.65067819282051,975.0,3

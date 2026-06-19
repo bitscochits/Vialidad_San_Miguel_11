@@ -2,8 +2,8 @@
 === TEXTO BASE PARA EL INFORME ===
 
 El área de influencia del tramo, definida mediante un buffer de 300 metros alrededor del eje vial analizado,
-concentra 2,707 predios georreferenciados. El uso predominante corresponde a Habitacional,
-representando aproximadamente 45.4% de los predios del entorno inmediato.
+concentra 2,805 predios georreferenciados. El uso predominante corresponde a Habitacional,
+representando aproximadamente 45.2% de los predios del entorno inmediato.
 
 La estructura edificada presenta una mediana de 17 pisos y un año mediano de construcción cercano a 2018.
 Estos resultados sugieren presencia de densificación y renovación urbana reciente en el entorno del tramo,
